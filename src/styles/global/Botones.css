@@ -1,0 +1,37 @@
+.Boton {
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out all;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.Boton.Normal {
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.Boton.Completo {
+  width: 100%;
+  grid-column: 1 / -1;
+  padding: 18px;
+  border-radius: 20px;
+}
+.Boton.Negro {
+  background-color: var(--ColorNegro);
+  border: 2px solid var(--ColorNegro);
+  color: var(--ColorBlanco);
+}
+.Boton.Negro:hover {
+  color: var(--ColorNegro);
+}
+.Boton.Negro:hover svg {
+  fill: var(--ColorNegro);
+}
+.Boton:hover {
+  cursor: pointer;
+  background-color: transparent;
+  letter-spacing: 0.5px;
+}

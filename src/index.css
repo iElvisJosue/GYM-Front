@@ -1,0 +1,77 @@
+/* IMPORTAMOS LOS ESTILOS GLOBALES */
+@import url(./styles/global/Botones.css);
+@import url(./styles/global/SVG.css);
+@import url(./styles/global/CampoRequerido.css);
+/* IMPORTAMOS LA FUENTE */
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public/Fuentes/Montserrat.ttf") format("truetype");
+}
+
+/* CONFIGURACIÓN GENERAL */
+:root {
+  --ColorNegro: #171616;
+  --ColorBlanco: #ffffff;
+  --ColorCafeOscuro: #f3ece6;
+  --ColorCafeClaro: #fcf8f5;
+  --ColorRosaOscuro: #ef98a1;
+  --ColorRosaClaro: #f3c5c5;
+  --ColorRojoOscuro: #ff5f56;
+  --ColorRojoClaro: #ffadad;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background: var(--ColorBlanco);
+}
+input {
+  /* accent-color: var(--MainYellow); */
+  outline: none;
+}
+input[type="file"] {
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 12px; /* Ancho del scroll */
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--ColorNegro); /* Color del scroll thumb */
+}
+::-webkit-scrollbar-track {
+  background-color: var(--ColorBlanco); /* Color del track */
+}
+/* .Main {
+  position: relative;
+
+  display: grid;
+  grid-template-areas:
+    "MenuHamburguesa Encabezado Encabezado"
+    "MenuHamburguesa SubMenu SubMenu"
+    "MenuHamburguesa Cuerpo Cuerpo";
+  grid-template-columns: 300px 1fr 1fr;
+  grid-template-rows: 75px 1fr;
+}
+@media (width >= 1920px) {
+  .Main {
+    width: 1920px;
+    margin: 0 auto;
+  }
+}
+@media (width <= 768px) {
+  .Main {
+    grid-template-areas:
+      "Encabezado Encabezado Encabezado"
+      "SubMenu SubMenu SubMenu"
+      "Cuerpo Cuerpo Cuerpo";
+  }
+} */

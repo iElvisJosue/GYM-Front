@@ -1,0 +1,6 @@
+.CampoRequerido {
+  width: 100%;
+  font-size: 13px;
+  color: var(--ColorRojoOscuro);
+  font-weight: bold;
+}

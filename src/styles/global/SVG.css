@@ -1,0 +1,9 @@
+.SVG {
+  transition: 0.3s ease-in-out all;
+}
+.SVG.Negro {
+  fill: var(--ColorNegro);
+}
+.SVG.Blanco {
+  fill: var(--ColorBlanco);
+}
